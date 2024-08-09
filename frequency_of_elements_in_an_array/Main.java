@@ -45,4 +45,29 @@ public class Main {
      * }
      */
 
+    /*
+     * public class Main {
+     * public static void main(String[] args) {
+     * int[] array = {1, 1, 1, 2, 2, 3, 3, 5, 6, 7}; // Example sorted array
+     * 
+     * int n = array.length;
+     * 
+     * int count = 1; // Start counting the first element
+     * int currentElement = array[0]; // Track the current element
+     * 
+     * for (int i = 1; i < n; i++) {
+     * if (array[i] == currentElement) {
+     * count++; // Increment count if the same element is found
+     * } else {
+     * System.out.println(currentElement + " appears " + count + " times");
+     * currentElement = array[i]; // Update current element to the new one
+     * count = 1; // Reset count for the new element
+     * }
+     * }
+     * // Print the count for the last element
+     * System.out.println(currentElement + " appears " + count + " times");
+     * }
+     * }
+     */
+
 }
