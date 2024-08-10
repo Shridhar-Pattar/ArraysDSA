@@ -23,3 +23,20 @@ public class Main {
         // outputs [6,5,4,3,2,1]
     }
 }
+
+/*
+ * one method reverse a number and check Palindrome
+ * public static boolean isPalindrome(int n) {
+ * int m = n;
+ * int rev = 0;
+ * int rem;
+ * while (n > 0) {
+ * rem = n % 10;
+ * rev = rev * 10 + rem;
+ * n = n / 10;
+ * 
+ * }
+ * return rev == m;
+ * 
+ * }
+ */
